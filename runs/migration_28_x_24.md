@@ -32,3 +32,29 @@
 - [x] build-pod-cluster
 - [x] canonical_openstack
 - [x] sysops-tools 
+
+#### Note:
+
+#### Failure:
+
+Migration of repository aws2cmdb_v2 failed due to a very large size (529 MiB) which needs to be cleaned up for migration to run and we need team to help.
+
+ 
+
+#### Empty Repositories:
+
+The following repositories are empty in bitbucket, and hence the same is reflected in GitHub as well.
+
+blackbox-m5
+ 
+
+File: terraform/new_terraform/lambda_role/.terraform/providers/registry.terraform.io/hashicorp/aws/5.59.0/darwin_amd64/terraform-provider-aws_v5.59.0_x5
+
+Size: 529 MiB
+
+ 
+
+#### Submodule update required:
+
+https://github.com/PFPT-Internal/xops-aws-otel-collector
+
