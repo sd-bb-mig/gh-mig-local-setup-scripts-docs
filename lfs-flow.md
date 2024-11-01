@@ -13,9 +13,9 @@ h --> i[expire reflogs and do cleanup]
 i --> j[source repository side changes are done]
 j --> k[target repository side changes - START]
 k --> l[clone the target github repository]
-j --> m[add the remote to bitbucket url]
+l --> m[add the remote to bitbucket url]
 m --> n[run lfs fetch an checkout to get the large file from bitbucket]
-n --> o[now push the changes to the origin (github)]
+n --> o[now push the changes to the origin - github]
 o --> p[end]
 ```
 
